@@ -87,6 +87,7 @@ function draw() {
      fill("black");
     textSize(30);
     text("Click To Vote",10,35);
+     text("No. Of People Voted: "+noofpeople,15,450);
 }
 
 if(state === ""){
